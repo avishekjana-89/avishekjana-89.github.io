@@ -27,6 +27,7 @@ body{
 .hero{background:linear-gradient(90deg, rgba(15,157,88,0.08), rgba(94,224,130,0.04));border-radius:10px;padding:28px 0 18px;margin-bottom:16px}
 h1{margin:0;font-size:30px}
 .headline{color:var(--muted);margin:6px 0 0;font-weight:600}
+.location{color:var(--muted);margin:6px 0 0;font-weight:500;font-size:15px}
 .contact a{color:var(--accent-a);text-decoration:none}
 .links a{margin-right:12px;color:var(--text);text-decoration:none;padding:6px 10px;border-radius:999px;background:rgba(15,157,88,0.06);border:1px solid rgba(15,157,88,0.06);font-weight:600}
 .links a:hover{transform:translateY(-3px)}
@@ -34,6 +35,9 @@ h1{margin:0;font-size:30px}
 /* header avatar */
 .hero-head{display:flex;align-items:center;gap:14px}
 .avatar{width:96px;height:96px;border-radius:999px;border:3px solid rgba(255,255,255,0.08);object-fit:cover;box-shadow:0 8px 20px rgba(11,18,32,0.12)}
+.hero-title{display:flex;flex-direction:column}
+.hero-title h1{margin-bottom:4px}
+.location{color:var(--muted);margin:0;font-weight:500;font-size:15px}
 
 main{padding:8px 0 40px}
 .section-wrap{border-radius:12px;overflow:hidden;margin-bottom:18px}
@@ -56,6 +60,7 @@ footer{border-top:1px solid rgba(11,18,32,0.04);padding:14px;color:var(--muted);
 .section-projects{background:linear-gradient(90deg, rgba(18,140,80,0.03), rgba(15,157,88,0.02))}
 .section-education{background:linear-gradient(90deg, rgba(94,224,130,0.03), rgba(18,140,80,0.02))}
 .section-contact{background:linear-gradient(90deg, rgba(128,203,196,0.03), rgba(15,157,88,0.02))}
+.section-languages{background:linear-gradient(90deg, rgba(94,224,130,0.03), rgba(15,157,88,0.02))}
 
 /* Inner padding and subtle divider */
 .section-inner + .section-inner{border-top:1px solid rgba(11,18,32,0.02)}
